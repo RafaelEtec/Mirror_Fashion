@@ -40,15 +40,15 @@ footer .container {
     text-indent: -9999px;
 }
 
-.social a [href*="facebook.com"] {
+.social a[href*="facebook.com"] {
     background-image: url(img/facebook.png);
 }
 
-.social a [href*="twitter.com"] {
+.social a[href*="twitter.com"] {
     background-image: url(img/twitter.png);
 }
 
-.social a [href*="plus.google.com"] {
+.social a[href*="plus.google.com"] {
     background-image: url(img/googleplus.png);
 }
 
@@ -109,6 +109,15 @@ footer .container {
 
 .busca input[type=search] {
     width: 210px;
+}
+
+.busca button {
+    background-image: url(img/busca.png);
+    background-repeat: no-repeat;
+    border: none;
+    width: 20px;
+    height: 20px;
+    text-indent: -9999;
 }
 
 .busca h2,
