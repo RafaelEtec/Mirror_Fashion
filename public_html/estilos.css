@@ -18,6 +18,10 @@ footer {
     padding: 20px 0;
 }
 
+body {
+    background: linear-gradient(white, grey);
+}
+
 footer .container {
     position: relative;
 }
@@ -64,6 +68,8 @@ footer .container {
     margin: 10px 0;
     padding: 10px;
     width: 445px;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 4px #9999;
 }
 
 .novidades {
@@ -86,7 +92,8 @@ footer .container {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 2px rgba(255,255,255,0.8);
 }
 
 .painel a {
@@ -96,12 +103,26 @@ footer .container {
     text-decoration: none;
 }
 
+.painel li:hover {
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0 0 5px #333;
+    transition: 0.7s;
+    transform: scale(1.2) rotate(-5deg);
+}
+
 .novidades {
     background-color: #F5DCDC;
+    background: linear-gradient(#F5DCDC, #BEBEF4);
 }
 
 .mais-vendidos {
     background-color: #DCDCF5;
+    background: linear-gradient(#DCDCF5, #F4BEFE);
+}
+
+.busca {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .busca,
@@ -138,6 +159,7 @@ footer .container {
     clear: left;
     margin-top: 10px;
     padding-bottom: 10px;
+    background: linear-gradient(grey, white);
 }
 
 .destaque {
@@ -172,11 +194,11 @@ footer .container {
 }
 
 .novidades {
-    box-shadow: inset 0 0 40px red;
+    box-shadow: inset 0 0 40px white;
 }
 
 .mais-vendidos {
-    box-shadow: inset 0 0 40px blue;
+    box-shadow: inset 0 0 40px white;
 }
 
 header {
